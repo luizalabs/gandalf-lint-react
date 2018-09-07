@@ -2,6 +2,19 @@
 # yarn lockfile v1
 
 
+"@softboxlab/eslint-config-gandalf-lint@^0.0.10":
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/@softboxlab/eslint-config-gandalf-lint/-/eslint-config-gandalf-lint-0.0.10.tgz#4fbeffb8d23f9e013252f4eb37143b780744725b"
+  dependencies:
+    eslint "^5.3.0"
+    eslint-config-standard "^11.0.0"
+    eslint-plugin-import "^2.13.0"
+    eslint-plugin-node "^7.0.1"
+    eslint-plugin-promise "^3.8.0"
+    eslint-plugin-react "^7.10.0"
+    eslint-plugin-standard "^3.1.0"
+    eslint-plugin-vue "^5.0.0-beta.2"
+
 acorn-jsx@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/acorn-jsx/-/acorn-jsx-4.1.1.tgz#e8e41e48ea2fe0c896740610ab6a4ffd8add225e"

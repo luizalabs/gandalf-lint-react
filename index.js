@@ -1,7 +1,6 @@
 module.exports = {
   extends: [
-    'eslint-config-standard',
-    './rules/gandalf',
+    'eslint-config-gandalf-lint'
   ].map(require.resolve),
   plugins: [
     'eslint-plugin-react',
