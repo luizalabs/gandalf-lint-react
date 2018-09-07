@@ -1,0 +1,42 @@
+{
+  "name": "@softboxlab/eslint-config-gandalf-lint-react",
+  "version": "0.0.10",
+  "description": "Your bad react code shall not pass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'tested'",
+    "release:tags": "git push && git push --tags",
+    "release:patch": "npm version patch && npm run release:tags",
+    "release:minor": "npm version minor && npm run release:tags",
+    "release:major": "npm version major && npm run release:tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoftboxLab/gandalf-lint.git"
+  },
+  "keywords": [
+    "lint",
+    "js",
+    "frontend",
+    "web"
+  ],
+  "author": "Pablo Henrique Penha Silva <pablohpsilva@gmail.com>, Victor Maestri <victormaestri@softbox.com.br>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SoftboxLab/gandalf-lint/issues"
+  },
+  "homepage": "https://github.com/SoftboxLab/gandalf-lint#readme",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "eslint": "^5.3.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-react": "^7.10.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "eslint-plugin-vue": "^5.0.0-beta.2"
+  }
+}
