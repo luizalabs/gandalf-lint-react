@@ -3,8 +3,7 @@ module.exports = {
     'eslint-config-gandalf-lint'
   ].map(require.resolve),
   plugins: [
-    'eslint-plugin-react',
-    'sort-imports-es6-autofix'
+    'eslint-plugin-react'
   ],
   parserOptions: {
     ecmaVersion: 2018,
@@ -12,16 +11,5 @@ module.exports = {
     ecmaFeatures: {
       jsx: true
     }
-  },
-  rules: {
-    'sort-imports-es6-autofix/sort-imports-es6': [
-      2,
-      {
-        ignoreCase: false,
-        ignoreMemberSort: false,
-        memberSyntaxSortOrder: ["none", "all", "multiple", "single"]
-      }
-    ],
-    'class-methods-use-this': 0
   }
 };
