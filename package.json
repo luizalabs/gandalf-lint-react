@@ -20,7 +20,7 @@
     "frontend",
     "web"
   ],
-  "author": "Pablo Henrique Penha Silva <pablohpsilva@gmail.com>, Victor Maestri <victormaestri@softbox.com.br>",
+  "author": "Pablo Henrique Penha Silva <pablohpsilva@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/SoftboxLab/gandalf-lint-react/issues"
@@ -40,5 +40,6 @@
     "eslint-plugin-react": "^7.11.1",
     "eslint-plugin-sort-imports-es6-autofix": "^0.3.0",
     "eslint-plugin-standard": "^4.0.0"
-  }
+  },
+  "devDependencies": {}
 }
