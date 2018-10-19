@@ -11,31 +11,23 @@
 </h3>
 
 ## Install
+Install the most powerful linter of the middle-earth (and its dependencies):
+
 Dependencies via NPM:
 ```bash
-npm install --save-dev eslint eslint-config-standard eslint-plugin-import eslint-plugin-jest eslint-plugin-node eslint-plugin-promise eslint-plugin-react eslint-plugin-sort-imports-es6-autofix eslint-plugin-standard eslint-plugin-vue
+npm install --save-dev @softboxlab/eslint-config-gandalf-lint-react eslint eslint-plugin-sort-imports-es6-autofix
 ```
 
 or via yarn:
 ```bash
-yarn add --dev eslint eslint-config-standard eslint-plugin-import eslint-plugin-jest eslint-plugin-node eslint-plugin-promise eslint-plugin-react eslint-plugin-sort-imports-es6-autofix eslint-plugin-standard eslint-plugin-vue
-```
-
-After install the dependencies, you will install the most powerful linter of the middle-earth:
-```bash
-npm install --save-dev @softboxlab/eslint-config-gandalf-lint
-```
-
-or via yarn:
-```bash
-yarn add --dev @softboxlab/eslint-config-gandalf-lint
+yarn add --dev @softboxlab/eslint-config-gandalf-lint-react eslint eslint-plugin-sort-imports-es6-autofix
 ```
 
 ## Configure
 Call the white wizard by creating a `.eslintrc` file on your root project and writing in it:
 ```javascript
 {
-  "extends": "@softboxlab/gandalf-lint"
+    "extends": "@softboxlab/eslint-config-gandalf-lint-react"
 }
 ```
 
@@ -59,6 +51,8 @@ or using yarn:
 ```bash
 yarn glint
 ```
+
+## Autorun? Automatic lint?
 
 **If you don't fell like creating any scripts, feel free to have your files linted on the fly by your IDE (did you remember to install the `eslint` plugin on your IDE?)**
 
