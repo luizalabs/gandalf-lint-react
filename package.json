@@ -31,7 +31,8 @@
   },
   "dependencies": {
     "@softboxlab/eslint-config-gandalf-lint": "0.0.11",
-    "eslint-plugin-react": "^7.11.1"
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-sort-imports-es6-autofix": "^0.3.0"
   },
   "devDependencies": {}
 }

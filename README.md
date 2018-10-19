@@ -15,12 +15,12 @@ Install the most powerful linter of the middle-earth (and its dependencies):
 
 Dependencies via NPM:
 ```bash
-npm install --save-dev @softboxlab/eslint-config-gandalf-lint-react eslint eslint-plugin-sort-imports-es6-autofix
+npm install --save-dev @softboxlab/eslint-config-gandalf-lint-react eslint
 ```
 
 or via yarn:
 ```bash
-yarn add --dev @softboxlab/eslint-config-gandalf-lint-react eslint eslint-plugin-sort-imports-es6-autofix
+yarn add --dev @softboxlab/eslint-config-gandalf-lint-react eslint
 ```
 
 ## Configure
