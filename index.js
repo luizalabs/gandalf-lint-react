@@ -1,13 +1,11 @@
 module.exports = {
-  extends: [
-    '@softboxlab/eslint-config-gandalf-lint'
-  ].map(require.resolve),
-  plugins: [
-    'eslint-plugin-react'
-  ],
+  extends: ["@softboxlab/eslint-config-gandalf-lint", "./rules/gandalf"].map(
+    require.resolve
+  ),
+  plugins: ["eslint-plugin-react"],
   parserOptions: {
     ecmaVersion: 2018,
-    sourceType: 'module',
+    sourceType: "module",
     ecmaFeatures: {
       jsx: true
     }
