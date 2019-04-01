@@ -1,3 +1,5 @@
 module.exports = {
-  "id-length": "off"
+  rules: {
+    "id-length": "off"
+  }
 };
