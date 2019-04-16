@@ -21,6 +21,7 @@
     "web"
   ],
   "author": "Pablo Henrique Penha Silva <pablohpsilva@gmail.com>",
+  "contributors": ["Lucas Vilaboim <lucas@vilaboim.com> (https://vilaboim.com)"],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/SoftboxLab/gandalf-lint-react/issues"
@@ -30,8 +31,9 @@
     "test": "test"
   },
   "dependencies": {
-    "@softboxlab/eslint-config-gandalf-lint": "0.0.11",
+    "@softboxlab/eslint-config-gandalf-lint": "^0.3.0",
     "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-react-hooks": "^1.6.0",
     "eslint-plugin-sort-imports-es6-autofix": "^0.3.0"
   },
   "devDependencies": {}
