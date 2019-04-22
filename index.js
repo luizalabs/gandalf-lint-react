@@ -1,13 +1,14 @@
 module.exports = {
-  extends: ["@softboxlab/eslint-config-gandalf-lint", "./rules/gandalf"].map(
-    require.resolve
-  ),
-  plugins: ["eslint-plugin-react"],
-  parserOptions: {
-    ecmaVersion: 2018,
-    sourceType: "module",
-    ecmaFeatures: {
-      jsx: true
-    }
+  extends: [
+    "@softboxlab/eslint-config-gandalf-lint",
+    "plugin:react/recommended"
+  ],
+  plugins: [
+    "react-hooks"
+  ],
+  rules: {
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "id-length": "off"
   }
 };
