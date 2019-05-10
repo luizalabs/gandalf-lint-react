@@ -14,7 +14,7 @@ module.exports = {
       "forbidDefaultForRequired": true
     }],
     "react/default-props-match-prop-types": ["error", {
-      "allowRequiredDefaults": true
+      "allowRequiredDefaults": false
     }]
   }
 };
