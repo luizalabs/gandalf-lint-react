@@ -1,6 +1,6 @@
 {
   "name": "@softboxlab/eslint-config-gandalf-lint-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Your bad react code shall not pass",
   "main": "index.js",
   "scripts": {
