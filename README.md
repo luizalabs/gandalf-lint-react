@@ -1,14 +1,15 @@
+![npm](https://img.shields.io/npm/v/@softboxlab/eslint-config-gandalf-lint-react)
+![build](https://img.shields.io/travis/SoftboxLab/gandalf-lint-react)
+![size](https://img.shields.io/bundlephobia/min/@softboxlab/eslint-config-gandalf-lint-react)
+![dependencies](https://img.shields.io/david/SoftboxLab/gandalf-lint-react)
+![GitHub](https://img.shields.io/github/license/softboxlab/gandalf-lint-react)
+
 # gandalf-lint-react
 
-<p align="center">
-	<img src="https://img00.deviantart.net/51e6/i/2004/144/1/b/you_shall_not_pass.jpg"/><br/>
-	image source: <a href="https://www.deviantart.com/captaind/art/you-shall-not-pass-7505473">Deviantart - CaptainD</a>
-</p>
-
-
-<h3 align="center" style="font-weight: bold;">
-  <b>BAD REACT CODE SHALL NOT PASS!</b>
-</h3>
+<div align="center">
+	<img src="https://media.giphy.com/media/8abAbOrQ9rvLG/giphy.gif" /><br/>
+  Bad React Code Shall Not Pass
+</div>
 
 ## Install
 Install the most powerful linter of the middle-earth (and its dependencies):
