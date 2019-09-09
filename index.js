@@ -15,6 +15,11 @@ module.exports = {
     }],
     "react/default-props-match-prop-types": ["error", {
       "allowRequiredDefaults": false
+    }],
+    "max-lines": ["error", {
+      "max": 200,
+      "skipBlankLines": true,
+      "skipComments": true
     }]
   }
 };
