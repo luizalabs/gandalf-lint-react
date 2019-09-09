@@ -20,6 +20,9 @@ module.exports = {
       "max": 200,
       "skipBlankLines": true,
       "skipComments": true
+    }],
+    "func-style": ["error", "declaration", {
+      "allowArrowFunctions": true
     }]
   }
 };
