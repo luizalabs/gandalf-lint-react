@@ -34,7 +34,7 @@
     "test": "test"
   },
   "dependencies": {
-    "@softboxlab/eslint-config-gandalf-lint": "^1.1.0",
+    "@softboxlab/eslint-config-gandalf-lint": "^1.3.0",
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^2.0.1"
   },
