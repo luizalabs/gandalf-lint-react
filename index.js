@@ -4,7 +4,8 @@ module.exports = {
     "plugin:react/recommended"
   ],
   plugins: [
-    "react-hooks"
+    "react-hooks",
+    "react"
   ],
   rules: {
     "react-hooks/rules-of-hooks": "error",
